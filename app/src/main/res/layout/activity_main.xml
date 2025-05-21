@@ -15,7 +15,7 @@
         android:background="#4CFFFFFF"
         android:text="Welcome to the flashcard app"
         android:textAlignment="center"
-        android:textColor="#FF5722"
+        android:textColor="@color/black"
         android:textSize="48sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
