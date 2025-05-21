@@ -10,9 +10,10 @@
 
     <TextView
         android:id="@+id/tetxt3"
-        android:layout_width="400dp"
-        android:layout_height="130dp"
+        android:layout_width="410dp"
+        android:layout_height="200dp"
         android:background="#4CFFFFFF"
+        android:gravity="center"
         android:text="Welcome to the flashcard app"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -20,7 +21,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.244" />
