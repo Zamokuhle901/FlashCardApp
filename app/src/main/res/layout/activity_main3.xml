@@ -75,6 +75,7 @@
         android:id="@+id/textView4"
         android:layout_width="400dp"
         android:layout_height="160dp"
+        android:background="#85FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
