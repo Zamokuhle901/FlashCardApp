@@ -97,7 +97,10 @@ private fun checkAns(ansUser:Boolean) {
 
 
 }
-
+//  Title: Falshcard App
+//  Author: Zamokuhle Mnyandu
+//  Version: 1.0
+//  Available at: https://www.youtube.com/watch?v=vA2zHlpuz3Y&list=PLkuvxMw3bvS8mW3xtlQBIno_UmXnPgr2F
 
 
 
