@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         val btnStart: Button = findViewById<Button>(R.id.button)
         val txtStart: TextView = findViewById<TextView>(R.id.tetxt3)
 
+//setting button on click listener to go to the next activity
         btnStart.setOnClickListener{
 
             val intent =  Intent(this, MainActivity4::class.java)
@@ -29,4 +30,4 @@ class MainActivity : AppCompatActivity() {
 //  Title: Falshcard App
 //  Author: Zamokuhle Mnyandu
 //  Version: 1.0
-//  Available at: https://www.youtube.com/watch?v=vA2zHlpuz3Y&list=PLkuvxMw3bvS8mW3xtlQBIno_UmXnPgr2F
+//  Available at: https://www.youtube.com/wasstch?v=vA2zHlpuz3Y&list=PLkuvxMw3bvS8mW3xtlQBIno_UmXnPgr2F
