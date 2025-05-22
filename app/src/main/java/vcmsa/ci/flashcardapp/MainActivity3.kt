@@ -33,6 +33,7 @@ import androidx.core.view.WindowInsetsCompat
                 val results = intent.getStringArrayListExtra("The results")
 
 
+                // Displaying the score of the users answers
                 txtScore.text = "You scored $score out of 5."
 
                 // Personalized feedback

@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         val btnStart: Button = findViewById<Button>(R.id.button)
         val txtStart: TextView = findViewById<TextView>(R.id.tetxt3)
 
-//setting button on click listener to go to the next activity
+        //setting button on click listener to go to the next activity
         btnStart.setOnClickListener{
 
             val intent =  Intent(this, MainActivity4::class.java)

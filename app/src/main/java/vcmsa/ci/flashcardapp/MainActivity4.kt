@@ -12,6 +12,8 @@ import androidx.core.view.WindowInsetsCompat
 import java.util.ArrayList
 
 class MainActivity4 : AppCompatActivity() {
+
+    // Putting the questions to array
     private val questions = arrayOf(
         "Q1.George Washington was the first U.S. President.",
         "Q2.World War II ended in 1939.",
@@ -20,6 +22,7 @@ class MainActivity4 : AppCompatActivity() {
         "Q5.The humam skeleton is made up of lees than 100 bones"
     )
 
+    // Putting the answers to arrays
     private val answers = booleanArrayOf(true, false, false, true, false)
 
     private lateinit var questionText: TextView
@@ -46,6 +49,8 @@ class MainActivity4 : AppCompatActivity() {
 
         questionText.text = questions[currentIndex]
 
+
+        // Place setting the button true on click listener for an answer
         trueButton.setOnClickListener {
             questTrue.text = "True"
 
@@ -54,6 +59,8 @@ class MainActivity4 : AppCompatActivity() {
 
     }
 
+
+    // Place setting the button false on click listener for an answer
     falseButton.setOnClickListener {
         hasAnswered = true
         questTrue.text = "False"
