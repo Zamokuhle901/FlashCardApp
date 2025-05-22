@@ -13,11 +13,11 @@ import java.util.ArrayList
 
 class MainActivity4 : AppCompatActivity() {
     private val questions = arrayOf(
-        "Q1. George Washington was the first U.S. President.",
-        "Q2. World War II ended in 1939.",
-        "Q3. The Roman Empire used Greek as its main language.",
-        "Q4. Joan of Arc was from France.",
-        "Q5. The humam skeleton is made up of lees than 100 bones"
+        "Q1.George Washington was the first U.S. President.",
+        "Q2.World War II ended in 1939.",
+        "Q3.The Roman Empire used Greek as its main language.",
+        "Q4.Joan of Arc was from France.",
+        "Q5.The humam skeleton is made up of lees than 100 bones"
     )
 
     private val answers = booleanArrayOf(true, false, false, true, false)
